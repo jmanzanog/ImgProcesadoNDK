@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/ tools"
+    tools:context=".ImgProcesadoNDK">
+
+    <item
+        android:id="@+id/action_reset"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:orderInCategory="100"
+        android:title="Mostrar Original"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/gray"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:orderInCategory="300"
+        android:title="Sobel"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sepia"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:orderInCategory="400"
+        android:title="Sepia"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/marco_1"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:orderInCategory="500"
+        android:title="Marco 1"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/marco_2"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:orderInCategory="600"
+        android:title="Marco 2"
+        app:showAsAction="never"
+        />
+
+</menu>
